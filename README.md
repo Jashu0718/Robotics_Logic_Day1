@@ -25,3 +25,17 @@ This project is the foundation of a modular control system for autonomous roboti
 2. Navigate to directory: `cd Robotics_Logic_Day1`
 3. Run the controller: `python3 main_controller.py`
 4. Monitor logs live: `tail -f telemetry.log`
+
+## Day 2: Industrial Data Reliability & Scaling
+Focused on making the robot logic "Indestructible" and preparing for fleet-level monitoring.
+
+### Key Milestones:
+- **Error Handling:** Implemented `try/except` blocks to catch invalid sensor inputs, preventing system crashes during runtime.
+- **Data Structures:** Utilized **Dictionaries** to manage complex robot states (ID, Battery, Temperature, Vibration).
+- **Fleet Management:** Developed a "Fleet Manager" using **Lists of Dictionaries** to monitor multiple robots simultaneously.
+- **Automated Alert System:** Created a logic gate that triggers an alert and logs data to `fleet_alerts.txt` when a robot's temperature exceeds 100°C.
+
+### Skills Gained:
+- Version Control (Resolving Git Pull/Push conflicts).
+- File I/O (Persistent logging for telemetry).
+- State Management (Using dictionaries to track machine health).
