@@ -17,3 +17,19 @@ print(f"Robot starting point: {robot_start}")
 print(f"Target destination:  {target_goal}")
 print(f"Vector to follow:    {path_vector}")
 print(f"Total distance:      {distance:.2f} meters")
+# Rotate the robot's target 90 degrees around the Z-axis
+# This is a standard 2D rotation matrix for 90 degrees:
+# [[0, -1],
+#  [1,  0]]
+
+rotation_90 = np.array([[0, -1], 
+                        [1,  0]])
+
+# Current 2D position (X, Y)
+current_pos = np.array([10, 0])
+
+# Matrix Multiplication to rotate the point
+new_pos = np.dot(rotation_90, current_pos)
+
+print(f"Original Position: {current_pos}")
+print(f"New Position after 90 degree turn: {new_pos}")
