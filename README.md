@@ -69,3 +69,31 @@ Day3_OOP/
 ├── robot_class.py        # Core OOP fundamentals and methods
 ├── fleet_ops.py          # Polymorphism and multi-robot management
 └── integrated_fleet.py    # Production-grade logging and error handling
+# Robotics Software Engineering Journey 🤖
+
+This repository tracks my transition from Mechanical Engineering to Robotics Software Development. It documents my daily progress in Python, C++, and Autonomous Systems.
+
+## 🚀 Progress Log
+
+### **Day 4: Mathematical Foundations & Navigation**
+* **Vector Mathematics:** Implemented distance calculation and vector normalization using NumPy.
+* **Coordinate Geometry:** Mastered rotation matrices and heading calculations using `atan2`.
+* **Linear Controller:** Built a script to move a robot from Point A to Point B with overshoot prevention.
+
+### **Day 5: Telemetry, Noise, and Waypoint Navigation**
+* **Sensor Simulation:** Implemented Gaussian (White) Noise to simulate real-world sensor inaccuracies.
+* **Data Visualization:** Integrated `Matplotlib` to plot planned vs. actual robot trajectories.
+* **Waypoint Mission:** Developed a "Square Patrol" algorithm allowing the robot to visit a sequence of coordinates autonomously.
+* **Telemetry Logging:** Created a system to record and analyze "Mission Data" (total distance, mean error, and path efficiency).
+
+---
+
+## 🛠️ Tech Stack
+* **Language:** Python 3.10+
+* **Libraries:** NumPy (Math), Matplotlib (Visualization)
+* **Environment:** Ubuntu (WSL2), VS Code, Git
+* **Hardware Context:** Insights applied from experience with Hyundai CAS Design and FANUC Robot Programming.
+
+## 📈 Next Milestones
+- [ ] **Day 6:** PID Control (Proportional-Integral-Derivative) for smooth acceleration.
+- [ ] **Day 7:** Introduction to ROS2 (Robot Operating System) nodes.
